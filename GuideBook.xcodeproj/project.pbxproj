@@ -17,6 +17,7 @@
 		414A50E12A65DBFD001AB193 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A50E02A65DBFD001AB193 /* City.swift */; };
 		414A50E32A65DC26001AB193 /* Attraction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 414A50E22A65DC26001AB193 /* Attraction.swift */; };
 		41B823F52A660C7600168139 /* CityCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B823F42A660C7600168139 /* CityCard.swift */; };
+		41B823F72A66114900168139 /* AttractionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B823F62A66114900168139 /* AttractionRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		414A50E02A65DBFD001AB193 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 		414A50E22A65DC26001AB193 /* Attraction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attraction.swift; sourceTree = "<group>"; };
 		41B823F42A660C7600168139 /* CityCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityCard.swift; sourceTree = "<group>"; };
+		41B823F62A66114900168139 /* AttractionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				414A50CE2A65DB5A001AB193 /* CityView.swift */,
 				41B823F42A660C7600168139 /* CityCard.swift */,
 				414A50DA2A65DB75001AB193 /* AttractionView.swift */,
+				41B823F62A66114900168139 /* AttractionRow.swift */,
 				414A50DC2A65DB90001AB193 /* DetailView.swift */,
 				414A50E02A65DBFD001AB193 /* City.swift */,
 				414A50E22A65DC26001AB193 /* Attraction.swift */,
@@ -157,6 +160,7 @@
 			files = (
 				414A50CF2A65DB5A001AB193 /* CityView.swift in Sources */,
 				414A50DD2A65DB90001AB193 /* DetailView.swift in Sources */,
+				41B823F72A66114900168139 /* AttractionRow.swift in Sources */,
 				414A50E12A65DBFD001AB193 /* City.swift in Sources */,
 				414A50E32A65DC26001AB193 /* Attraction.swift in Sources */,
 				41B823F52A660C7600168139 /* CityCard.swift in Sources */,
