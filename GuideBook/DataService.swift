@@ -90,4 +90,31 @@ On the bottom floor is an exhibit room showing the history and science of animat
                      ])
         ]
     }
+    
+    func getFileData() -> [City] {
+        
+        //Get file path to DemoData
+        if let url = Bundle.main.url(forResource: "DemoData", withExtension: "json") {
+            do {
+                //Read the file and turn it into data
+                let data = try Data(contentsOf: url)
+                
+                //Parse data into swift instances
+                let decoder = JSONDecoder()
+                
+                do {
+                    let cities = try decoder.decode([City].self, from: data)
+                    return cities
+                }
+                catch {
+                    print("Couldn't parse the JSON: \(error)")
+                }
+            }
+            catch {
+                print("Couldn't read the file: \(error)")
+                
+            }
+        }
+        return [City]()
+    }
 }
